@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BusToGoAppliction</string>
+    <string name="Bus">Bus To Go Appliction</string>
+    <string name="แอพ">แอพพลิเคชันแนะนำรถประจำทางที่ผ่านเขตพระนคร</string>
+    <string name="Language">Language Settings</string>
+    <string name="Th">Thai</string>
+    <string name="En">English</string>
+    <string name="สาย">สายรถเมล์</string>
+    <string name="ถนน">ถนนเเละสถานที่สำคัญ</string>
+    <string name="ต้น">ต้นทางและปลายทาง</string>
+    <string name="ข่าว">ข่าวสาร</string>
+</resources>
