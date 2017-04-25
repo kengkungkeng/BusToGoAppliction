@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Mainmenu"></activity>
+        <activity android:name=".Mainmenu" />
+        <activity android:name=".NumberBus" />
+        <activity android:name=".Road" />
+        <activity android:name=".StartorDestination" />
+        <activity android:name=".News"></activity>
     </application>
 
 </manifest>
