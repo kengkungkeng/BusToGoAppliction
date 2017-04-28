@@ -11,116 +11,136 @@
 
     <ImageView
         android:id="@+id/imgvbus"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:srcCompat="@drawable/bus"
-        android:layout_marginStart="8dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bus" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/Bus"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/h2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvbus" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        app:srcCompat="@drawable/busgg"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="72dp"
+        android:onClick="imageView3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/imageView4"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/imgvbus" />
+        app:layout_constraintTop_toBottomOf="@+id/imgvbus"
+        app:srcCompat="@drawable/busgg" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="17dp"
         android:text="@string/สาย"
         android:textColor="@android:color/black"
         android:textSize="@dimen/h4"
-        app:layout_constraintHorizontal_chainStyle="spread"
-        android:layout_marginLeft="55dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="17dp"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        app:srcCompat="@drawable/maplocation"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/imgvbus"
         android:layout_marginRight="54dp"
-        app:layout_constraintRight_toRightOf="parent" />
+        android:layout_marginTop="72dp"
+        android:onClick="imageView4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvbus"
+        app:srcCompat="@drawable/maplocation" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="17dp"
         android:text="@string/ถนน"
         android:textColor="@android:color/black"
-        android:textSize="20dp"
-        android:layout_marginTop="17dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        android:layout_marginRight="8dp"
+        android:textSize="@dimen/h4"
+        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintLeft_toRightOf="@+id/textView"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/textView4"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintHorizontal_bias="0.789" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        app:srcCompat="@drawable/roaddirection"
-        android:layout_marginTop="29dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
         android:layout_marginLeft="55dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginTop="45dp"
+        android:onClick="imageView5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/roaddirection" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ต้น"
-        android:textColor="@android:color/black"
-        android:textSize="20sp"
-        android:layout_marginLeft="33dp"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="73dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        android:text="@string/ข่าว"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/h4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
         android:onClick="imageView6"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toRightOf="@+id/imageView5"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:srcCompat="@drawable/news" />
+        app:srcCompat="@drawable/news"
+        android:layout_marginTop="45dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ข่าว"
-        android:textColor="@android:color/black"
-        android:textSize="20sp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintLeft_toRightOf="@+id/textView6"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.397" />
+        android:text="@string/ต้น"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/h4"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
 </android.support.constraint.ConstraintLayout>

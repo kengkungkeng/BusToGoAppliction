@@ -13,9 +13,9 @@ public class News extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news);
     }
-    public void imageView6 (View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("http://www.bmta.co.th/?q=th/home"));
+    public void button3 (View view) {
+        Intent intent = new Intent(News.this,Mainmenu.class);
         startActivity(intent);
     }
+
 }
