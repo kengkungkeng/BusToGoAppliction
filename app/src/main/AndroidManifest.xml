@@ -20,7 +20,8 @@
         <activity android:name=".NumberBus" />
         <activity android:name=".Road" />
         <activity android:name=".StartorDestination" />
-        <activity android:name=".News"></activity>
+        <activity android:name=".News" />
+        <activity android:name=".detail" />
     </application>
 
 </manifest>
