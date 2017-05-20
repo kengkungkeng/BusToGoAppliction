@@ -13,14 +13,18 @@ public class Mainmenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainmenu);
     }
-    public void imageView6 (View view) {
+    public void imvd (View view) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse("http://www.bmta.co.th/?q=th/home"));
         startActivity(intent);
     }
-    public void imageView3 (View view) {
+    public void imva (View view) {
         Intent intent = new Intent(Mainmenu.this,NumberBus.class);
         startActivity(intent);
     }
 
+    public void imvb (View view) {
+        Intent intent = new Intent(Mainmenu.this,Road.class);
+        startActivity(intent);
+    }
 }
