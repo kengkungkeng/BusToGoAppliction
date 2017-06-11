@@ -47,6 +47,7 @@
                 android:id="@+id/imageView11"
                 android:layout_width="181dp"
                 android:layout_height="179dp"
+                android:onClick="imageView11"
                 app:srcCompat="@drawable/one"
                 tools:layout_editor_absoluteX="97dp"
                 tools:layout_editor_absoluteY="-42dp" />
