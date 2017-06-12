@@ -16,4 +16,8 @@ public class Road extends AppCompatActivity {
         Intent intent = new Intent(Road.this,Mainmenu.class);
         startActivity(intent);
     }
+    public void imageView4 (View view) {
+        Intent intent = new Intent(Road.this,GiantSwing.class);
+        startActivity(intent);
+    }
 }
