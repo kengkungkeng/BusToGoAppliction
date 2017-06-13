@@ -27,7 +27,7 @@ public class NumberBus extends AppCompatActivity {
             R.drawable.oneonezon,R.drawable.onetwotree,R.drawable.onetwofour
             ,R.drawable.onetwoseven,R.drawable.onesevone,R.drawable.oneeggtre,R.drawable.twozontree
             ,R.drawable.fivezontre,R.drawable.fivezones,R.drawable.fivezonegg,R.drawable.fzonnine,R.drawable.fiveoneo
-            ,R.drawable.fivonsiz,R.drawable.fivtwfo,R.drawable.fivtwni,R.drawable.fivfotwo,R.drawable.fivesix};
+            ,R.drawable.fivonsiz,R.drawable.fivtwfo,R.drawable.fivtwni,R.drawable.fivfotwo,R.drawable.fivessix};
 
     private String[]titlesStrings,detailStrings,shorStrings;
     @Override
