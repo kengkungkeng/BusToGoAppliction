@@ -20,4 +20,24 @@ public class Road extends AppCompatActivity {
         Intent intent = new Intent(Road.this,GiantSwing.class);
         startActivity(intent);
     }
+    public void imageView45 (View view) {
+        Intent intent = new Intent(Road.this,BangkokCityPillarShrine.class);
+        startActivity(intent);
+    }
+    public void imageView46 (View view) {
+        Intent intent = new Intent(Road.this,BorompinHall.class);
+        startActivity(intent);
+    }
+    public void imageView43 (View view) {
+        Intent intent = new Intent(Road.this,RattanakosinExhibitionHall.class);
+        startActivity(intent);
+    }
+    public void imageView42 (View view) {
+        Intent intent = new Intent(Road.this,Territorialcommandingunit.class);
+        startActivity(intent);
+    }
+    public void imageView40 (View view) {
+        Intent intent = new Intent(Road.this,Ancientartillerymuseum.class);
+        startActivity(intent);
+    }
 }

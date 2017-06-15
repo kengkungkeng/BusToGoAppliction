@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.user.bustogoappliction">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -26,7 +26,12 @@
         <activity android:name=".StartorDestination" />
         <activity android:name=".News" />
         <activity android:name=".detail" />
-        <activity android:name=".GiantSwing"></activity>
+        <activity android:name=".GiantSwing" />
+        <activity android:name=".BangkokCityPillarShrine" />
+        <activity android:name=".BorompinHall" />
+        <activity android:name=".RattanakosinExhibitionHall" />
+        <activity android:name=".Territorialcommandingunit" />
+        <activity android:name=".Ancientartillerymuseum"></activity>
     </application>
 
 </manifest>

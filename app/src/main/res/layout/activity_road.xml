@@ -47,32 +47,37 @@
                 android:id="@+id/imageView45"
                 android:layout_width="wrap_content"
                 android:layout_height="196dp"
+                android:onClick="imageView45"
                 app:srcCompat="@drawable/y" />
 
             <ImageView
                 android:id="@+id/imageView46"
                 android:layout_width="wrap_content"
                 android:layout_height="209dp"
+                android:onClick="imageView46"
                 app:srcCompat="@drawable/ab" />
 
             <ImageView
                 android:id="@+id/imageView43"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
+                android:onClick="imageView43"
                 app:srcCompat="@drawable/yu" />
 
             <ImageView
                 android:id="@+id/imageView42"
                 android:layout_width="wrap_content"
                 android:layout_height="192dp"
+                android:onClick="imageView42"
                 app:srcCompat="@drawable/yi" />
 
             <ImageView
                 android:id="@+id/imageView40"
                 android:layout_width="wrap_content"
                 android:layout_height="216dp"
-                app:srcCompat="@drawable/x"
-                android:layout_weight="0.02" />
+                android:layout_weight="0.02"
+                android:onClick="imageView40"
+                app:srcCompat="@drawable/x" />
 
             <ImageView
                 android:id="@+id/imageView39"
