@@ -31,7 +31,16 @@
         <activity android:name=".BorompinHall" />
         <activity android:name=".RattanakosinExhibitionHall" />
         <activity android:name=".Territorialcommandingunit" />
-        <activity android:name=".Ancientartillerymuseum"></activity>
+        <activity android:name=".Ancientartillerymuseum" />
+        <activity android:name=".WatTritvatthamWorawiharn" />
+        <activity android:name=".ArtGallery" />
+        <activity android:name=".WatTheodoraWorawihan" />
+        <activity android:name=".MuseumofSiam" />
+        <activity android:name=".WatSuthepVisawaram" />
+        <activity android:name=".WatSamPhraya" />
+        <activity android:name=".Mahasararam" />
+        <activity android:name=".ThecourtBangkok" />
+        <activity android:name=".WatRajatataramWorawihan"></activity>
     </application>
 
 </manifest>

@@ -40,4 +40,40 @@ public class Road extends AppCompatActivity {
         Intent intent = new Intent(Road.this,Ancientartillerymuseum.class);
         startActivity(intent);
     }
+    public void imageView39 (View view) {
+        Intent intent = new Intent(Road.this,WatTritvatthamWorawiharn.class);
+        startActivity(intent);
+    }
+    public void imageView38 (View view) {
+        Intent intent = new Intent(Road.this,ArtGallery.class);
+        startActivity(intent);
+    }
+    public void imageView36 (View view) {
+        Intent intent = new Intent(Road.this,WatTheodoraWorawihan.class);
+        startActivity(intent);
+    }
+    public void imageView35 (View view) {
+        Intent intent = new Intent(Road.this,MuseumofSiam.class);
+        startActivity(intent);
+    }
+    public void imageView34 (View view) {
+        Intent intent = new Intent(Road.this,WatSuthepVisawaram.class);
+        startActivity(intent);
+    }
+    public void imageView33 (View view) {
+        Intent intent = new Intent(Road.this,WatSamPhraya.class);
+        startActivity(intent);
+    }
+    public void imageView32 (View view) {
+        Intent intent = new Intent(Road.this,Mahasararam.class);
+        startActivity(intent);
+    }
+    public void imageView31 (View view) {
+        Intent intent = new Intent(Road.this,ThecourtBangkok.class);
+        startActivity(intent);
+    }
+    public void imageView30 (View view) {
+        Intent intent = new Intent(Road.this,WatRajatataramWorawihan.class);
+        startActivity(intent);
+    }
 }
