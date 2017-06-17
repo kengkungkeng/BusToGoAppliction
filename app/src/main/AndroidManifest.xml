@@ -40,7 +40,15 @@
         <activity android:name=".WatSamPhraya" />
         <activity android:name=".Mahasararam" />
         <activity android:name=".ThecourtBangkok" />
-        <activity android:name=".WatRajatataramWorawihan"></activity>
+        <activity android:name=".WatRajatataramWorawihan" />
+        <activity android:name=".WatPhraKaew" />
+        <activity android:name=".WatPho" />
+        <activity android:name=".PromPalace" />
+        <activity android:name=".NaranatSuntarikaram" />
+        <activity android:name=".WatMahathat" />
+        <activity android:name=".WatKutthakararam" />
+        <activity android:name=".WatMahanaram" />
+        <activity android:name=".Interior"></activity>
     </application>
 
 </manifest>

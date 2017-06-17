@@ -147,48 +147,56 @@
                 android:id="@+id/imageView29"
                 android:layout_width="wrap_content"
                 android:layout_height="194dp"
+                android:onClick="imageView29"
                 app:srcCompat="@drawable/n" />
 
             <ImageView
                 android:id="@+id/imageView28"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
+                android:onClick="imageView28"
                 app:srcCompat="@drawable/m" />
 
             <ImageView
                 android:id="@+id/imageView27"
                 android:layout_width="wrap_content"
                 android:layout_height="205dp"
+                android:onClick="imageView27"
                 app:srcCompat="@drawable/lk" />
 
             <ImageView
                 android:id="@+id/imageView26"
                 android:layout_width="wrap_content"
                 android:layout_height="208dp"
+                android:onClick="imageView26"
                 app:srcCompat="@drawable/l" />
 
             <ImageView
                 android:id="@+id/imageView25"
                 android:layout_width="wrap_content"
                 android:layout_height="195dp"
+                android:onClick="imageView25"
                 app:srcCompat="@drawable/k" />
 
             <ImageView
                 android:id="@+id/imageView24"
                 android:layout_width="wrap_content"
                 android:layout_height="197dp"
+                android:onClick="imageView24"
                 app:srcCompat="@drawable/j" />
 
             <ImageView
                 android:id="@+id/imageView23"
                 android:layout_width="wrap_content"
                 android:layout_height="201dp"
+                android:onClick="imageView23"
                 app:srcCompat="@drawable/i" />
 
             <ImageView
                 android:id="@+id/imageView22"
                 android:layout_width="wrap_content"
                 android:layout_height="198dp"
+                android:onClick="imageView22"
                 app:srcCompat="@drawable/ga" />
 
             <ImageView
