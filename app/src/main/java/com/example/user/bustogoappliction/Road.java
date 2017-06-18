@@ -144,4 +144,17 @@ public class Road extends AppCompatActivity {
         Intent intent = new Intent(Road.this,SanamLuang.class);
         startActivity(intent);
     }
+    public void imageView7 (View view) {
+        Intent intent = new Intent(Road.this,Santichai.class);
+        startActivity(intent);
+    }
+    public void imageView5 (View view) {
+        Intent intent = new Intent(Road.this,DemocracyMonument.class);
+        startActivity(intent);
+    }
+    public void imageView2 (View view) {
+        Intent intent = new Intent(Road.this,Bovornniwet.class);
+        startActivity(intent);
+    }
+
 }

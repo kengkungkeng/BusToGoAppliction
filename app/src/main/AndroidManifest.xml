@@ -57,7 +57,10 @@
         <activity android:name=".FortressofMerit" />
         <activity android:name=".WatChansongkhram" />
         <activity android:name=".WatBuranasiri" />
-        <activity android:name=".SanamLuang"></activity>
+        <activity android:name=".SanamLuang" />
+        <activity android:name=".Santichai" />
+        <activity android:name=".DemocracyMonument" />
+        <activity android:name=".Bovornniwet"></activity>
     </application>
 
 </manifest>
