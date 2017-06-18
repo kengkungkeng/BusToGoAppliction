@@ -48,7 +48,16 @@
         <activity android:name=".WatMahathat" />
         <activity android:name=".WatKutthakararam" />
         <activity android:name=".WatMahanaram" />
-        <activity android:name=".Interior"></activity>
+        <activity android:name=".Interior" />
+        <activity android:name=".WatLeed" />
+        <activity android:name=".GrandPalace" />
+        <activity android:name=".MinistryofDefense" />
+        <activity android:name=".WatIntharawiharn" />
+        <activity android:name=".WatEiamWoranuch" />
+        <activity android:name=".FortressofMerit" />
+        <activity android:name=".WatChansongkhram" />
+        <activity android:name=".WatBuranasiri" />
+        <activity android:name=".SanamLuang"></activity>
     </application>
 
 </manifest>

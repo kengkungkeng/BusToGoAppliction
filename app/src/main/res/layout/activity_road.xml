@@ -203,54 +203,63 @@
                 android:id="@+id/imageView21"
                 android:layout_width="wrap_content"
                 android:layout_height="212dp"
+                android:onClick="imageView21"
                 app:srcCompat="@drawable/g" />
 
             <ImageView
                 android:id="@+id/imageView20"
                 android:layout_width="wrap_content"
                 android:layout_height="210dp"
+                android:onClick="imageView20"
                 app:srcCompat="@drawable/fr" />
 
             <ImageView
                 android:id="@+id/imageView19"
                 android:layout_width="wrap_content"
                 android:layout_height="208dp"
+                android:onClick="imageView19"
                 app:srcCompat="@drawable/fi" />
 
             <ImageView
                 android:id="@+id/imageView18"
                 android:layout_width="wrap_content"
                 android:layout_height="196dp"
+                android:onClick="imageView18"
                 app:srcCompat="@drawable/f" />
 
             <ImageView
                 android:id="@+id/imageView17"
                 android:layout_width="wrap_content"
                 android:layout_height="196dp"
+                android:onClick="imageView17"
                 app:srcCompat="@drawable/e" />
 
             <ImageView
                 android:id="@+id/imageView12"
                 android:layout_width="match_parent"
                 android:layout_height="197dp"
+                android:onClick="imageView12"
                 app:srcCompat="@drawable/de" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="207dp"
+                android:onClick="imageView10"
                 app:srcCompat="@drawable/d" />
 
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
+                android:onClick="imageView9"
                 app:srcCompat="@drawable/c" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="195dp"
+                android:onClick="imageView8"
                 app:srcCompat="@drawable/bv" />
 
             <ImageView
