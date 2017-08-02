@@ -23,7 +23,7 @@
 
     <ImageView
         android:id="@+id/imvb"
-        android:layout_width="382dp"
+        android:layout_width="388dp"
         android:layout_height="157dp"
         android:background="#ff9010"
         android:onClick="imvb"
@@ -32,7 +32,8 @@
         app:layout_constraintTop_toBottomOf="@+id/imva"
         app:srcCompat="@drawable/roadorforfun"
         app:layout_constraintBottom_toTopOf="@+id/imvc"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.0"
+        tools:layout_editor_absoluteY="137dp" />
 
     <ImageView
         android:id="@+id/imvc"

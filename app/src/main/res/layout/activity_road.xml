@@ -36,8 +36,8 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="match_parent"
-                android:layout_height="205dp"
+                android:layout_width="wrap_content"
+                android:layout_height="203dp"
                 android:onClick="imageView4"
                 app:srcCompat="@drawable/b"
                 tools:layout_editor_absoluteX="44dp"

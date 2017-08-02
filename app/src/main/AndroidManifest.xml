@@ -27,40 +27,7 @@
         <activity android:name=".News" />
         <activity android:name=".detail" />
         <activity android:name=".GiantSwing" />
-        <activity android:name=".BangkokCityPillarShrine" />
-        <activity android:name=".BorompinHall" />
-        <activity android:name=".RattanakosinExhibitionHall" />
         <activity android:name=".Territorialcommandingunit" />
-        <activity android:name=".Ancientartillerymuseum" />
-        <activity android:name=".WatTritvatthamWorawiharn" />
-        <activity android:name=".ArtGallery" />
-        <activity android:name=".WatTheodoraWorawihan" />
-        <activity android:name=".MuseumofSiam" />
-        <activity android:name=".WatSuthepVisawaram" />
-        <activity android:name=".WatSamPhraya" />
-        <activity android:name=".Mahasararam" />
-        <activity android:name=".ThecourtBangkok" />
-        <activity android:name=".WatRajatataramWorawihan" />
-        <activity android:name=".WatPhraKaew" />
-        <activity android:name=".WatPho" />
-        <activity android:name=".PromPalace" />
-        <activity android:name=".NaranatSuntarikaram" />
-        <activity android:name=".WatMahathat" />
-        <activity android:name=".WatKutthakararam" />
-        <activity android:name=".WatMahanaram" />
-        <activity android:name=".Interior" />
-        <activity android:name=".WatLeed" />
-        <activity android:name=".GrandPalace" />
-        <activity android:name=".MinistryofDefense" />
-        <activity android:name=".WatIntharawiharn" />
-        <activity android:name=".WatEiamWoranuch" />
-        <activity android:name=".FortressofMerit" />
-        <activity android:name=".WatChansongkhram" />
-        <activity android:name=".WatBuranasiri" />
-        <activity android:name=".SanamLuang" />
-        <activity android:name=".Santichai" />
-        <activity android:name=".DemocracyMonument" />
-        <activity android:name=".Bovornniwet"></activity>
     </application>
 
 </manifest>
