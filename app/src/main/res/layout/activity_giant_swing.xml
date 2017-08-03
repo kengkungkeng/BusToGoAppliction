@@ -11,13 +11,13 @@
 
     <ImageView
         android:id="@+id/imageView41"
-        android:layout_width="374dp"
-        android:layout_height="197dp"
+        android:layout_width="386dp"
+        android:layout_height="195dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         app:srcCompat="@drawable/b"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="8dp" />
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-6dp" />
 
     <ListView
         android:layout_width="0dp"
