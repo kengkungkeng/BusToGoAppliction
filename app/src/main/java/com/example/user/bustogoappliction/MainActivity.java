@@ -102,9 +102,10 @@ public class MainActivity extends AppCompatActivity {
                             objPlaceTABLE.AddNewPlace(strNP,strPP,strPD,strPLA,strPLO,strPB);
                             break;
                         default:
+                            String strBI = jsonObject.getString("id_bus");
                             String strBP = jsonObject.getString("pic_bus");
                             String strBD = jsonObject.getString("detail_bus");
-                            objBusTABLE.AddNewBus(strBP,strBD);
+                            objBusTABLE.AddNewBus(strBP,strBD,strBI);
                             break;
                     }
                 }

@@ -2,6 +2,7 @@ package com.example.user.bustogoappliction.DBbustogo;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 /**
@@ -37,4 +38,24 @@ public class PlaceTABLE {
         objContentValues.put(objMySQLiteOpenHelper.PLACE_BUS,strPB);
         return readSQLiteDataBase.insert(objMySQLiteOpenHelper.PLACE_TABLE,null,objContentValues);
     }
+    public String[] readDBplaceTABLE(int intplace){
+        try{
+            String[] strResult = null;
+            Cursor objCursor = readSQLiteDataBase.query(PLACE_TABLE, new String[]{PLACE_NAME,PLACE_DETAIL,PLACE_PIC},null,null,null,null,null);
+            if(objCursor != null){
+                if(objCursor.moveToFirst()){
+                    strResult = new String[3];
+                    for (int i=0;i<3;i++){
+                        strResult[i]= objCursor.getString(intplace);
+                        objCursor.moveToNext();
+                    }
+                }
+            }
+            objCursor.close();
+            return strResult;
+        }catch (Exception e){
+            return null;
+        }
+    }
+
 }

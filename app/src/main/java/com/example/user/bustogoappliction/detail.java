@@ -19,8 +19,9 @@ public class detail extends AppCompatActivity {
         ImageView imageView = (ImageView)findViewById(R.id.imvimageDetail);
         Button button =(Button)findViewById(R.id.btnBack);
 
-        titleTextView.setText(getIntent().getStringExtra("Title"));
-        detailTextView.setText(getIntent().getStringExtra("Detail"));
+        titleTextView.setText(getIntent().getStringExtra("Numbus"));
+        detailTextView.setText(getIntent().getStringExtra("Detailbus"));
+
 
     }
 
