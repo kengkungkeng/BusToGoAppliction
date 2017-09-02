@@ -10,7 +10,7 @@
 
 
     <ImageView
-        android:id="@+id/imva"
+        android:id="@+id/imbus"
         android:layout_width="382dp"
         android:layout_height="136dp"
         android:background="#9bd6d4"
@@ -19,17 +19,17 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/busonenikekek"
-        app:layout_constraintBottom_toTopOf="@+id/imvb" />
+        app:layout_constraintBottom_toTopOf="@+id/implace" />
 
     <ImageView
-        android:id="@+id/imvb"
+        android:id="@+id/implace"
         android:layout_width="388dp"
         android:layout_height="157dp"
         android:background="#ff9010"
         android:onClick="imvb"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imva"
+        app:layout_constraintTop_toBottomOf="@+id/imbus"
         app:srcCompat="@drawable/roadorforfun"
         app:layout_constraintBottom_toTopOf="@+id/imvc"
         app:layout_constraintHorizontal_bias="0.0"
@@ -42,7 +42,7 @@
         android:background="#abd938"
         android:onClick="imvc"
         app:layout_constraintBottom_toTopOf="@+id/imvd"
-        app:layout_constraintTop_toBottomOf="@+id/imvb"
+        app:layout_constraintTop_toBottomOf="@+id/implace"
         app:srcCompat="@drawable/uiui"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"

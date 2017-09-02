@@ -28,6 +28,17 @@
         <activity android:name=".detail" />
         <activity android:name=".GiantSwing" />
         <activity android:name=".Territorialcommandingunit" />
+        <activity android:name=".buslist" />
+        <activity android:name=".Listbus" />
+        <activity android:name=".Listviewbus" />
+        <activity android:name=".Detailbus" />
+        <activity android:name=".Allbus.Buslist" />
+        <activity android:name=".Allbus.Buslistview" />
+        <activity android:name=".Allbus.Busdetail" />
+        <activity android:name=".Allplace.Placelist" />
+        <activity android:name=".Allplace.Placelistview" />
+        <activity android:name=".Allplace.Placedetail" />
+        <activity android:name=".Alldetail"></activity>
     </application>
 
 </manifest>
